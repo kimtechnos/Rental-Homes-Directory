@@ -15,6 +15,24 @@
   margin: 1.5rem;
   font-weight: bold;
 }
+.nav-signup {
+  padding: 10px 20px;
+  background-color: var(--color-right-green);
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+.nav-signup:hover {
+  background-color: black;
+}
+
+.nav-login {
+  padding: 10px 20px;
+  background-color: var(--color-red);
+  border-radius: 5px;
+}
+.nav-login:hover {
+  background-color: var(--color-black);
+}
 
 .nav-items a {
   color: var(--color-white);

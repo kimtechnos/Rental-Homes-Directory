@@ -25,10 +25,10 @@ const Header = () => {
         <Link to="/contact" onClick={handleLinkClick}>
           Contact
         </Link>
-        <Link to="/singup" onClick={handleLinkClick}>
+        <Link to="/singup" className="nav-signup" onClick={handleLinkClick}>
           sing up
         </Link>
-        <Link to="/login" onClick={handleLinkClick}>
+        <Link to="/login" className="nav-login" onClick={handleLinkClick}>
           login
         </Link>
       </div>
