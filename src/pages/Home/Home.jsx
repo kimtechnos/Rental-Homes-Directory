@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "./Hero";
+import Property from "./Property/Property";
 import "./home.css";
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <>
         <Hero />
+        <Property />
       </>
     </div>
   );

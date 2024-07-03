@@ -1,14 +1,17 @@
 import React from "react";
+import "./banner.css";
 
-const Heading = ({ title, subtitle }) => {
+const Banner = (title, subtitle) => {
   return (
-    <>
-      <div className="heading">
-        <h1>{title}</h1>
-        <p>{subtitle}</p>
-      </div>
-    </>
+    <div>
+      <>
+        <div className="heading">
+          <h1>{title}</h1>
+          <p>{subtitle}</p>
+        </div>
+      </>
+    </div>
   );
 };
 
-export default Heading;
+export default Banner;

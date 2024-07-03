@@ -139,8 +139,8 @@
       transition: all 0.45s ease-in-out;
     }
 
-    .nav-toggle>.bar::before,
-    .nav-toggle>.bar::after {
+    .nav-toggle > .bar::before,
+    .nav-toggle > .bar::after {
       content: "";
       position: absolute;
       height: 0.3rem;
