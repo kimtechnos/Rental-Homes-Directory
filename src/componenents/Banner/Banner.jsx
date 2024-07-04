@@ -1,16 +1,17 @@
 import React from "react";
 import "./banner.css";
 
-const Banner = (title, subtitle) => {
+const Banner = ({ name, title, cover }) => {
   return (
-    <div>
-      <>
-        <div className="heading">
+    <>
+      <div className="banner">
+        <div className="container">
+          <span>{name}</span>
           <h1>{title}</h1>
-          <p>{subtitle}</p>
         </div>
-      </>
-    </div>
+        <img src={cover} alt="Banner" />
+      </div>
+    </>
   );
 };
 
